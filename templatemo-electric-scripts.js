@@ -62,7 +62,7 @@ tabs.forEach(tab => {
 });
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
-    alert('Message sent! We\'ll get back to you soon.');
+    alert('Thank you for contacting, Lahori Tech.');
     this.reset();
 });
 createParticles();
