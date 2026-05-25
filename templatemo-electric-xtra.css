@@ -17,7 +17,7 @@ body { font-family: 'Rajdhani', sans-serif; background: #0a0a0a; color: #ffffff;
 nav { position: fixed; top: 0; width: 100%; padding: 20px 50px; background: rgba(10, 10, 10, 0.8); backdrop-filter: blur(10px); z-index: 1000; transition: all 0.3s ease; border-bottom: 1px solid rgba(255, 94, 0, 0.1); }
 nav.scrolled { padding: 15px 50px; background: rgba(10, 10, 10, 0.95); box-shadow: 0 5px 30px rgba(255, 94, 0, 0.2); }
 .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
-.logo-link { display: flex; align-items: center; text-decoration: none; gap: 10px; }
+.logo-link { display: flex; align-items: center; text-decoration: none; gap: 100px; }
 .nav-links { display: flex; gap: 30px; list-style: none; }
 .nav-links a { text-decoration: none; color: #ffffff; position: relative; transition: all 0.3s ease; padding: 8px 16px; font-family: 'Orbitron', monospace; font-weight: 500; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; opacity: 0.7; }
 .nav-links a.active { opacity: 1; color: #D4AF37; }
